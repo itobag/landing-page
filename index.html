@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
@@ -7,25 +8,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-<h1>
-    Rosalie Bagot
-</h1>
-<p>
-    Chef de projet digital en première année
-</p>
-<nav>
-    <a href="https://www.behance.net/rosaliebagot" target="_blank"> <img class="icones" src="icones/behance.svg" alt=""></a>
-    <a href="https://www.linkedin.com/in/rosalie-bagot-2013861ba/" target="_blank"> <img class="icones" src="icones/linkedin.svg" alt=""></a>
-    <a href="https://portfoliorosalie.themecloud.dev/" target="_blank"> <img class="icones" src="icones/wordpress.svg" alt=""></a>
-</nav>
-<img src="image/" alt="">
-</header>
+    <header>
+        <h1>
+            Rosalie Bagot
+        </h1>
+        <p>
+            Chef de projet digital en première année
+        </p>
+        <nav>
+            <a href="https://www.behance.net/rosaliebagot" target="_blank"> <img class="icones" src="icones/behance.svg"
+                    alt=""></a>
+            <a href="https://www.linkedin.com/in/rosalie-bagot-2013861ba/" target="_blank"> <img class="icones"
+                    src="icones/linkedin.svg" alt=""></a>
+            <a href="https://portfoliorosalie.themecloud.dev/" target="_blank"> <img class="icones"
+                    src="icones/wordpress.svg" alt=""></a>
+        </nav>
+        <img src="image/" alt="">
+    </header>
+    <section class="activites-pro">
+        <h2>
+            Normandie Web School, Petit Quevilly
+        </h2>
 
+        <div class="shadowbox">
+            <img src="image/moi.jpg" alt="">
+            <p> Baccalauréat section littéraire 2020, Lycée les Bruyères.
+                Serveuse chez Maître Corbeau Septembre 2020.
+                Bachelor chef de projet digital Octobre 2020.
+            </p>
+        </div>
+    </section>
 
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+</form>
+    
 </body>
-</html>
 
+</html>
