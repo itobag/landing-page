@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family:'EB Garamond', serif;
+    text-align: center;
+    color: white;
+    font-size: 8em;
+    font-weight: 100;
+}
+header p {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+img {
+    max-width: 60%;
+}
+
+header {
+    background-image: url("image/lolflowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    height: 50vh;
+}
+
+.icones{
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+nav{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
