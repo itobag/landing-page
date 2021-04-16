@@ -72,7 +72,6 @@ h2 {
 }
 
 form {
-    /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
     height: max-content;
     width: 200px;
