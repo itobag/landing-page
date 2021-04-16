@@ -41,4 +41,41 @@ nav{
     margin-right: auto;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+}
+.shadowbox {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+  }
 
+.activites-pro {
+    font-family: 'Antonio', sans-serif;
+    margin: 40px auto;
+    width: 90vw;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+}
+
+.activites-pro .shadowbox {
+    margin-left: auto;
+}
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
